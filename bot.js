@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const fs = require("fs");
 const config = require("C:/wizardconfig.json");
 const sql = require("sqlite");
-const token = process.env.token
+const token = process.env.;
 sql.open("./servants.sqlite");
 
 // This loop reads the /events/ folder and attaches each event file to the appropriate event.
